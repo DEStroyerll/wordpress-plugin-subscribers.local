@@ -1,0 +1,61 @@
+#dn-table, .dn-text {
+    width: 70%;
+}
+
+#dn-table thead tr {
+    background: #a2a2a2;
+}
+
+#dn-table tbody td {
+    border-bottom: 1px solid #ccc;
+}
+
+#btn {
+    width: 15%;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    background: #008EC2;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+#btn:hover {
+    background: #007fb2;
+}
+
+.pagination{
+    margin: 20px;
+}
+.pagination a{
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    text-decoration: none;
+    background: #fff;
+    color: #428bca;
+}
+.pagination li{
+    display: inline;
+}
+.pagination a:nth-child(even){
+    border-left: none;
+    border-right: none;
+}
+.pagination a:first-child{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination a:last-child{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid #ddd;
+}
+.pagination a:hover{
+    background: #eee;
+}
+.pagination > a.active-page{
+    background: #428bca;
+    color: #fff;
+    border-color: #428bca;
+}
